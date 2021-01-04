@@ -15,7 +15,7 @@ Aguarde a abertura automatica ou abra [http://localhost:3000](http://localhost:3
 
 Quando for notificado, permita para que a aplicação possa carregar as informações da sua localização.
 
-![alt text](https://image.prntscr.com/image/vHdpIhmrTvOMdxCKsMrVlg.png)
+![Notificação](https://image.prntscr.com/image/vHdpIhmrTvOMdxCKsMrVlg.png)
 
 ## Em construção
 
@@ -26,3 +26,5 @@ Quando for notificado, permita para que a aplicação possa carregar as informa�
   * Humidade
   * Visibilidade
   * Qualidade do ar
+
+![UnderConstruction](https://image.prntscr.com/image/unvjkNYdS9mqEmmRvdBREg.png)
