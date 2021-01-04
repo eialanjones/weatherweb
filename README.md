@@ -3,8 +3,7 @@ Iniciado em 03/01/2021
 Projeto Utilizando ReactJS (Web, Mobile responsivo).
 Funciona com Dark Mode do Opera GX
 
-![Notificação](https://image.prntscr.com/image/-Rx3nfEkTyuKJwECMruyVQ.png)
-![Notificação](https://image.prntscr.com/image/p9uLoE3qQmqfuM2ug2QP1A.png)
+<img src="https://image.prntscr.com/image/-Rx3nfEkTyuKJwECMruyVQ.png" width="200"><img src="https://image.prntscr.com/image/p9uLoE3qQmqfuM2ug2QP1A.png" width="550">
 
 ## Guia de execução
 
