@@ -151,8 +151,14 @@ export const DayOfWeek = styled.div`
   min-height: 170px;
 
   > div {
+    display: flex;
     flex: 1;
     margin-bottom: ${Px2Vw(20, 768)};
+
+    img {
+      height: ${Px2Vw(70)};
+      width: ${Px2Vw(70)};
+    }
   }
 
   @media (min-width: 768px){
@@ -160,14 +166,21 @@ export const DayOfWeek = styled.div`
 
     > div {
       flex: 1;
-
+      display: block;
       & + div {
         margin-left: ${Px2Vw(5, 768)};
       }
+
+      img {
+      height: ${Px2Vw(40, 768)};
+      width: ${Px2Vw(40, 768)};
+    }
     }
   }
 `;
-export const DayTitle = styled.div``;
+export const DayTitle = styled.div`
+  place-content: center;
+`;
 export const CardRow = styled.div`
   > div {
     & {
@@ -221,22 +234,65 @@ export const DayCard = styled.div`
   border-radius: 10px;
   padding-top: 15px;
   padding-bottom: 15px;
+  align-items: center;
+  place-content: center;
+  margin-left: 25px;
+  margin-right: 25px;
 
-  div {
-    span {
-      opacity: 0.5;
+  > div {
+    flex: 1;
+
+    div {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-end;
+      font-size: ${Px2Vw(12)};
+
+      > span {
+        opacity: 0.5;
+        line-height: 30px;
+        margin-left: 5px;
+      }
+    }
+  }
+
+  @media (min-width: 768px){
+    margin-left: 0;
+    margin-right: 0;
+    > div {
+        div {
+          display: flex;
+          justify-content: center;
+          align-items: flex-end;
+          font-size: ${Px2Vw(8, 768)};
+
+          > span {
+          opacity: 0.5;
+          line-height: 30px;
+          margin-left: 5px;
+        }
+      }
     }
   }
 `;
 
 export const Reload = styled.button`
-  width: 100%;
   height: 45px;
   border: 0;
   background-color: orange;
   margin-top: 25px;
   color: white;
   border-radius: 10px;
+  width: ${Px2Vw(250)};
+  margin-bottom: ${Px2Vw(20)};
+
+  @media (min-width: 768px){
+    width: ${Px2Vw(140, 768)};
+    margin-bottom: 0;
+    span {
+      font-size: 20px;
+    }
+  }
 `;
 
 export const Content = styled.div`

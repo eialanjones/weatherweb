@@ -122,11 +122,13 @@ export const Home = (props: any) => {
                 if (moment(day.dt * 1000).date() === moment().date()) return null;
                 return (
                   <DayCard id="DayCard_1">
-                    <DayTitle id="DayTitle_1">{`${moment(day.dt * 1000).format('ddd, DD')}`.toUpperCase()}</DayTitle>
-                    <img src={`${IURL}/${day.weather[0].icon}@2x.png`} alt="" height={40} width={40} />
+                    <div><img src={`${IURL}/${day.weather[0].icon}@2x.png`} alt="" /></div>
                     <div>
-                      {`${day.temp.max.toFixed(0)}º`}
-                      <span>{` ${day.temp.min.toFixed(0)}º`}</span>
+                      <DayTitle id="DayTitle_1">{`${moment(day.dt * 1000).format('ddd, DD')}`.toUpperCase()}</DayTitle>
+                      <div>
+                        <h1>{`${day.temp.max.toFixed(0)}º`}</h1>
+                        <span>{` ${day.temp.min.toFixed(0)}º`}</span>
+                      </div>
                     </div>
                   </DayCard>
                 );
