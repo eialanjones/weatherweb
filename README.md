@@ -1,4 +1,4 @@
-Iniciado em 03/04/2021
+Iniciado em 03/01/2021
 
 ## Guia de execução
 
