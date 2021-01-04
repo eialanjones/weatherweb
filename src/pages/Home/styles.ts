@@ -98,7 +98,7 @@ export const BackgroundCard = styled.div`
   height: ${Px2Vw(60, 320)};
   width: ${Px2Vw(250, 320)};
   border-radius: 10px;
-  font-size: 20px;
+  font-size: ${Px2Vw(10)};
   padding-left: 0 !important;
   align-self: center;
   justify-content: center;
@@ -106,6 +106,7 @@ export const BackgroundCard = styled.div`
 
   span {
     align-self: center;
+    padding: 20px;
   }
 
   @media (min-width: 768px){
@@ -114,7 +115,7 @@ export const BackgroundCard = styled.div`
     margin-bottom: ${Px2Vw(20, 768)};
 
     span {
-      font-size: 20px;
+      font-size: ${Px2Vw(10, 768)};
     }
   }
 `;
