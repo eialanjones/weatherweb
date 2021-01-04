@@ -36,6 +36,8 @@ export const SideColumn = styled.div`
 
   img {
     align-self: center;
+    height: 200px;
+    width: 200px;
   }
 
   > div {
@@ -76,6 +78,11 @@ export const SideColumn = styled.div`
     border-radius: 25px 0 0 25px;
     padding: 0 ${Px2Vw(20, 768)};
     flex: 1;
+
+    img {
+      height: 250px;
+      width: 250px;
+    }
 
     > div {
       > h1 {

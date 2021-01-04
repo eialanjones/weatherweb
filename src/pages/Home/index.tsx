@@ -87,7 +87,7 @@ export const Home = (props: any) => {
     <Container id="Container">
       <Body id="Body">
         <SideColumn id="SideColumn">
-          <img src={`${IURL}/${data?.current.weather[0].icon || '03d'}@4x.png`} alt="" height={250} width={250} />
+          <img src={`${IURL}/${data?.current.weather[0].icon || '03d'}@4x.png`} alt="" height={200} width={200} />
           <div>
             <h1>
               {data ? `${data?.current.temp.toFixed(0)}º` : 0}
