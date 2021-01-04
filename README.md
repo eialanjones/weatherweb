@@ -11,6 +11,12 @@ Baixa todos as libs/modulos necessários para a execução do projeto.
 Iniciar a aplicação em modo dev.<br />
 Abra [http://localhost:3000](http://localhost:3000) para visualizar no navegador.
 
+### `Permitir a localização no navegador`
+
+Permita quando for notificado, para que a aplicação possa carregar as informações da sua localização.
+
+![alt text](https://image.prntscr.com/image/vHdpIhmrTvOMdxCKsMrVlg.png)
+
 ## Em construção
 
 - Detalhes e informações extras:
